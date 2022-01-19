@@ -1,0 +1,5 @@
+It is saying port 80 is busy ... run this to see who is using port 80
+
+sudo netstat -tlnp | grep 80 # sudo apt-get install net-tools # to install netstat 
+
+to free up the port
